@@ -29,41 +29,33 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header>
-          <ul>
-            <li>
-              <Link href="/">
-                <span className="font-bold text-lg">Home</span>
-              </Link>
-              /
-              <Link href="/counter">
-                <span className="font-bold text-lg">Counter</span>
-              </Link>
-              /
-              <Link href="/movie-csr">
-                <span className="font-bold text-lg">Movie-CSR</span>
-              </Link>
-              /
-              <Link href="/movie-ssr">
-                <span className="font-bold text-lg">Movie-SSR</span>
-              </Link>
-              /
-              <Link href="/movie-csr-swr">
-                <span className="font-bold text-lg">Movie-CSR-SWR</span>
-              </Link>
-              /
-              <Link href="/movie-ssr-swr">
-                <span className="font-bold text-lg">Movie-SSR-SWR</span>
-              </Link>
-              /
-              <Link href="/todo">
-                <span className="font-bold text-lg">Todo</span>
-              </Link>
-              /
-              <Link href="/news">
-                <span className="font-bold text-lg">News</span>
-              </Link>
-            </li>
-          </ul>
+          <Link href="/">
+            <span className="font-bold text-lg">Home</span>
+          </Link>
+          /
+          <Link href="/counter">
+            <span className="font-bold text-lg">Counter</span>
+          </Link>
+          /
+          <Link href="/movie-csr">
+            <span className="font-bold text-lg">Movie-CSR</span>
+          </Link>
+          /
+          <Link href="/movie-csr-swr">
+            <span className="font-bold text-lg">Movie-CSR-SWR</span>
+          </Link>
+          /
+          <Link href="/movie-ssr">
+            <span className="font-bold text-lg">Movie-SSR</span>
+          </Link>
+          /
+          <Link href="/todo">
+            <span className="font-bold text-lg">Todo</span>
+          </Link>
+          /
+          <Link href="/news">
+            <span className="font-bold text-lg">News</span>
+          </Link>
         </header>
 
         {/* Page.tsx: 모든 하위 컴포넌트가 여기에 렌더링됨 */}
